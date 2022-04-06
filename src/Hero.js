@@ -1,14 +1,20 @@
 import React from 'react'
+import Dashboard from './Dashboard.js'
+import Navbar from './Components/NavBar/navbar'
+import './style.css'
 
-const Hero = ({handleLogout}) => {
+const Hero = () => {
     return(    
-        <section className='hero'>
-            <nav>
+        <>
+            {/* <nav>
                 <h2>Welcome</h2>
                 <button onClick={handleLogout}>Logout</button>
-            </nav>
-        </section>
-    )
+            </nav> */}
+            
+            <Dashboard/>
+    
+            </>
+    ) 
 }
 
 export default Hero

@@ -2,10 +2,9 @@
 .header-container{
     flex-direction: row;
     display: flex;
-    padding:0 9rem ;
+    padding:0 6rem ;
 }
 .header-text>h1{
-    padding-left: 2rem;
     width: 20rem;
     font-family: 'Playfair Display', sans-serif;
     /* font-weight: 100; */
@@ -13,11 +12,10 @@
     font-size: 2.5rem;
 }
 .header-rectangle{
-    width:80%;
+    width:90%;
     height: 2rem;
     background: rgb(255, 34, 34);
     margin-top: .6rem;
-    /* margin-left: 1rem; */
 }
 
 .card-container-1{

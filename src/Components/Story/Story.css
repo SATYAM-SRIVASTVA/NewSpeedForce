@@ -24,7 +24,7 @@
     padding: 2rem 6rem;
     color: white;
     font-family: 'Playfair Display', serif;
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     text-align: left;
     line-height: 3rem;
 }
@@ -45,8 +45,8 @@
 
 }
 .right-container-para>p{
-    font-family: 'Playfair Display', serif;
-    font-size: 1.5rem;
+    font-family: 'Poppins', serif;
+    font-size: 1.3rem;
     padding-left: 5rem;
     margin-top: 1rem;
     padding-right: 3rem;

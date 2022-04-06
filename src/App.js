@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react'
 import fire from './fire'
-import './style.css';
 import Login from './Login'
 import Hero from './Hero'
+import Dashboard from './Dashboard.js'
+import Navbar from './Components/NavBar/navbar'
 
 function App() {
   const [user, setUser] = useState('');
@@ -84,11 +85,9 @@ function App() {
   }, [])
 
   return (
-    <div className="container">
+    <div className="App">
       {user ? 
-        (<Hero 
-          handleLogout={handleLogout}
-        />)
+        (<Hero handleLogout={handleLogout}/>)
       :
         (<Login 
           email = {email}
