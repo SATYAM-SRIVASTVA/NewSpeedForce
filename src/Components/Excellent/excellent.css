@@ -1,14 +1,13 @@
 .excellent-container{
     padding-bottom: 3rem;
-    width: 100vw;
     display: flex;
 }
 
 .excellent-first-container{
     padding-left: 0;
     padding-right: 0;
-    padding-top: 12rem;
-    height: 60rem;
+    /* padding-top: 12rem; */
+     
 }
 
 .excellent-image-container{
@@ -19,23 +18,20 @@
 }
 
 .excellent-second-container{
-    padding: 0  0;
-    /* margin: 0 0rem; */
-    height: 100%;
-}
-
-.excellent-second-container-color{
-    padding-top: 3.5rem;
-    padding-left: 4rem;
-    padding-right: 5rem;
-    background-color: rgb(255, 34, 34);
+    background-color:#ff2222
+    
     
 }
+
 
 .excellent-second-container-header>h1{
     font-size: 3.5rem;
     color: white;
     font-family: "Playfair Display", serif;
+    padding-top: 2rem;
+    padding-left: 5rem;
+    text-align: left;
+
 
 }
 
@@ -44,10 +40,12 @@
     padding-top: 5rem;
     padding-bottom: 10rem;
     padding-right: 5rem;
-    text-align: justify;
+    padding-left: 5rem;
+    text-align: left;
     font-size: 1.6rem;
     line-height: 2.5rem;
     color: white;
+    
 }
 
 .excellent-second-container-button{

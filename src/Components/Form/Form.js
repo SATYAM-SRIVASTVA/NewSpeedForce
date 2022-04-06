@@ -46,7 +46,7 @@ const Form = () => {
         };
 
   return (
-    <div class="container">  
+    <div class="container-form ">  
     <form id="contact" action="" method="post">
       <h3>Quick Contact</h3>
       <h4>Contact us today, and get reply with in 24 hours!</h4>

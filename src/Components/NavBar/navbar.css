@@ -1,10 +1,30 @@
-.navbar-main-container{
-    height: 5.2rem;
-    width: 100vw;
-    background: white;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web");
+* {
+  font-family: "Titillium Web", sans-serif;
 }
 
-.navbar-image-container{
-  margin-left: 2rem;
+.navbar .navbar-brand {
+  font-size: 30px;
+}
+
+.logo{
+  width:50%;
+  height: 50%;
+}
+
+.logo>img{
+  width: 10rem;
+  height: 4.3rem;
+}
+
+.navbar .nav-item {
+  padding: 10px 20px;
+}
+.navbar .nav-link {
+  font-size: 20px;
+  margin-left: 10px;
+}
+.fa-bars {
+  color: #007bff;
+  font-size: 30px;
 }
